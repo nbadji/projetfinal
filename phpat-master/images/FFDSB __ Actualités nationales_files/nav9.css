@@ -1,0 +1,190 @@
+/* for this demo only */
+
+#nav {
+	margin:0px 0px 0px 10px !important;
+	margin:-3px 0px 0px 5px;
+}
+/* the styling */
+#nav {
+	float:left;
+	width:853px;
+/*	background:transparent url("bottom_line.gif") repeat-x bottom;*/
+	background:#921801 url("/images/nav3.jpg") repeat-x bottom ;
+	background-position:0 0px;
+	position:relative;
+	border-bottom:1px solid #FFF;
+	border-left:1px solid #FFF;
+	border-right:1px solid #FFF;
+	border-top:1px solid #FFF;
+}
+
+#nav .select, #nav .current {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:block;
+}
+
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+	height:auto;
+}
+
+#nav .select a, #nav .current a { /* onglet selectionné ou hover*/
+	display:block;
+	height:20px;
+	float:left;
+	/*background: url("left_blue.gif") no-repeat left top;*/
+	padding:0 0 0 0px;
+/*border-bottom:1px solid #FFF;*/
+	border-left:0px solid #FFF;
+	border-top:0px solid #FFF;
+	text-decoration:none;
+	font-size:0.7em;
+	line-height:20px;
+	white-space:nowrap;
+	margin-left:0px;
+}
+
+* html #nav .select a, * html #nav .current a { /* a quoi cela sert ?*/
+	width:1px;
+	border-bottom:1px solid #FFF;
+}
+
+#nav .select a b, #nav .current a b {
+	height:100%;
+	display:block;
+	background:url("/images/nav3.jpg") repeat-x right top;
+	padding:0px 6px 0 3px;
+	color:#FFF;
+/*	border-top:1px solid #FFF;*/
+}
+
+#nav .select a:hover, #nav .select li:hover a {
+	background-position:0 -30px;
+	border-color:#046;
+	cursor:pointer;
+	border-bottom:0px solid #FFF;
+}
+
+#nav .select a:hover b, #nav .select li:hover a b {
+	background-position:0 -30px;
+	border-color:#046;
+	color:#fff;
+}
+
+/* on commence à traiter les sous menus */
+
+#nav .sub {
+	display:none;
+}
+
+/* for IE5.5 and IE6 only */
+#nav table {
+	position:absolute;
+	border-collapse:collapse;
+	left:0;
+	top:0;
+	font-size:0.7em;
+}
+
+#nav .current a {
+	background-position:0 -30px;
+/*	border-color:#FF6;*/
+}
+#nav .current a b {
+	background-position:100% -30px;
+/*	color:#ff6;*/
+}
+
+#nav .sub li a:hover, #nav .select a:hover .sub li a:hover, #nav .select li:hover .sub li a:hover {
+	background:#005984 url(/images/sub_sep.gif) top right no-repeat;
+/*	background:#fff url(sub_sep.gif) top right no-repeat;*/
+	color:#fff;
+	text-decoration:underline;
+}
+
+#nav .sub_active .current_sub a, #nav .sub_active a:hover {
+	background:#2F5488 url(/images/nav3.jpg) top right repeat-x;
+	background-position:0 -30px;	
+	color:#FFF;
+	text-decoration:none;
+}
+
+#nav .sub_active .current_sub a {
+	font-weight:bold;
+}
+
+#nav .select li a:hover .sub, #nav .select li:hover .sub {
+	display:block;
+	position:absolute;
+	width:853px;
+	top:20px;
+	left:0;
+	background:#2F5488 url(/images/nav3.jpg) top ;
+	background-position:0 -30px;
+	margin-top:1px;
+	padding:0;
+	z-index:100;
+	border-bottom:1px solid #fff;
+}
+
+#nav .sub, #nav .sub_active {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border-left:0px solid #fff;
+}
+
+#nav .sub_active {
+	display:block;
+	position:absolute;
+	width:853px;
+	top:20px;
+	left:-1px;
+	background:#2F5488 url(/images/nav3.jpg) top ;
+/*	background:#ccc;*/
+	background-position:100% -30px;
+	margin-top:0px;
+	padding:0px;
+	z-index:10;
+	color:#000;
+  border:1px solid #fff;
+  /*border-bottom:1px solid #fff;
+	border-left:0px solid #fff;
+	border-right:1px solid #fff;*/
+
+}
+
+* html #nav .sub_active, * html #nav .select a:hover .sub {
+	z-index:-1;
+	margin-top:0px;
+/*	margin-top:1px;*/
+}
+
+#nav .sub_active a {
+	height:25px;
+	float:left;
+	text-decoration:none;
+	line-height:25px;
+	white-space:nowrap;
+	font-weight:normal;
+}
+
+#nav .sub_active a, #nav .select a:hover .sub li a, #nav .select li:hover .sub li a {
+	display:inline;
+	background:#2F5488 url(/images/sub_sep.gif) top right no-repeat;
+	padding:0 10px;
+	margin:0;
+	font-size:10px;
+	width:auto;
+	white-space:nowrap;
+	font-weight:normal;
+	border:0;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+}
+

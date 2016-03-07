@@ -1,0 +1,304 @@
+/* @override http://ffdsb.devsite/css/test9.css */
+/* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*font: 70% Verdana, Arial, Helvetica, sans-serif;
+*/
+	/*background: #003986;
+*/
+	text-align: center;
+/* ce parametrage centre le conteneur dans les navigateurs IE 5.x. Le texte est ensuite aligné à gauche (valeur par défaut) dans le sélecteur #container */
+	color: #000000;
+	background: #003986 url(/images/bgFFDSB1.jpg) repeat-x top fixed;
+	/*  background-repeat: repeat-x;
+*/
+}
+hr {
+	border: none;
+	clear: both;
+	height: 1px;
+	background-color: #999;
+	margin: 10px 10px 20px 10px;
+}
+blockquote {
+	margin: -0px 0 35px 35px;
+	text-indent: 25px;
+	background: url(/images/quote1.gif);
+	background-position: 0 2px;
+	background-repeat: no-repeat;
+}
+blockquote p {
+	font-style: italic;
+	display: inline;
+	margin: 0;
+	padding-right: 24px;
+	background: url(/images/quote2.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.cartoActeur {
+	text-align: center;
+	width: 370px;
+	background: #D7D664;
+	margin: 20px 0 20px 60px;
+	padding: 0px 0 0px 0px;
+}
+.efsout, .infosecur {
+	/*padding: 10px 10px 10px 10px;
+*/
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border: 1px dotted #222;
+	background: #F3F3E1 url(/images/EFS.gif) no-repeat bottom right;
+}
+.infosecur {
+	background: #F3F3E1 url(/images/secur.gif) no-repeat bottom right;
+}
+.infosecur .formsecur {
+	width: 180px;
+	margin: 10px auto 10px auto;
+}
+.infosecur .formsecur .erreur{
+    color:#F00;
+}
+
+/*.efsout ul {
+	margin: 10px 10px 35px 10px;
+}
+.efsout li {
+	margin-bottom: 12px;
+	margin: 10px auto 12px auto;
+	background-color: #f9f8f8;
+	list-style-type: none;
+}
+*/
+div.efsout {
+	padding-bottom: 30px;
+	/*margin: 10px 10px 35px 10px;
+*/
+}
+div.efsout p {
+	margin: 10px 10px 12px 10px;
+	background-color: #f9f8f8;
+	list-style-type: none;
+	padding: 5px;
+}
+.infocr {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	background-color: #F3F3E1;
+	border: 1px dotted #222;
+	color: #666;
+}
+.infocr img {
+	border: 0px;
+	text-align: right;
+}
+.infocr partenaires {
+	text-align: right;
+}
+.infocr.contact {
+	text-align: center;
+}
+.infocr.actu p.meta {
+	float: right;
+	font-style: italic;
+	font-size: 85%;
+}
+.infocr.actu img, a.thickbox img {
+	float: right;
+	margin: 0 0 2px 7px;
+}
+a.thickbox.left img {
+	float: left;
+	margin: 0 7px 2px 0;
+}
+.imgactu {
+	margin: 0 auto;
+}
+a:active, a:focus {
+	outline: none;
+}
+a {
+	font-weight: bold;
+	color: #666;
+}
+a[href ^="callto:"], .accoblock a[href ^="callto:"] {
+	padding: 5px 0 5px 20px;
+	background: transparent url(/images/icons/icon_call.gif) no-repeat center left;
+	text-decoration: none;
+	color: #666;
+}
+a[href ^="mailto:"], .accoblock a[href ^="mailto:"] {
+	padding: 5px 0 5px 20px;
+	background: transparent url(/images/icons/icon_mailto.gif) no-repeat center left;
+	color: #666;
+	text-decoration: none;
+}
+a[href ^="mailto:"]:hover {
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+}
+a[href$='.pdf'], a.pdf {
+	padding: 5px 0 5px 20px;
+	background: transparent url(/images/icons/icon_pdf.gif) no-repeat center left;
+}
+#infobulle a[href$='.jpg'], #infobulle a.jpg, 
+#infobulle a[href$='.gif'], #infobulle a.gif, 
+#infobulle a[href$='.png'], #infobulle a.png{
+	padding: 5px 0 5px 20px;
+	background: transparent url(/images/icons/icon_pic.gif) no-repeat center left;
+}
+
+.myborder a[href ^="http:"], .infocr a[href ^="http:"] {
+	padding: 5px 0 5px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(/images/icons/icon_external.gif) no-repeat center left;
+}
+a[href ^="http://ffdsb.org"], a[href ^="http://www.ffdsb.org"] {
+	background-image: none;
+}
+a[href ^="http:"]:hover {
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+}
+/* test forms */
+/*#cnom {
+	margin-left: 10px;
+	width: 20px;
+	border: 1px dotted #222;
+}
+#promesse label {
+	margin-left: 0px;
+	0width: 10px;
+	0border: 1px dotted #222;
+}
+#promesse input {
+	margin-left: 150px;
+	width: 150px;
+	0border: 1px dotted #222;
+}
+#promesse {
+	width: 670px;
+}
+#promesse label.error {
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+}
+*/
+/*ctypepartctypeentcmontantcrscnomcprenomemailcfonctioncadresse  ccpcvillectelcemail*/
+/* tableau tabconseil Conseil d'administration */
+table.tabconseil {
+	border-collapse: collapse;
+	width: 95%;
+	margin: 10px;
+	border: thin dotted #222;
+}
+table.tabconseil th {
+	background: #3e83c9;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 11px;
+	text-align: left;
+	border-right: 1px solid #fff;
+	line-height: 1.2;
+}
+table.tabconseil td img {
+	padding: 0px 0px;
+}
+table.tabconseil td {
+	padding: 4px 11px;
+	border-bottom: 1px solid #95bce2;
+	vertical-align: top;
+}
+table.tabconseil td * {
+	padding: 6px 11px;
+}
+table.tabconseil tr.alt td {
+	background: #F3F3E1;
+}
+table.tabconseil tr.over td {
+	background: #bcd4ec;
+	font-weight: bold;
+}
+h1, h2 {
+	text-align: left;
+}
+.warning {
+	margin: 10px auto 10px auto;
+	border-left: 2px solid #f00;
+	border-right: 2px solid #f00;
+	width: 95%;
+	background: #FFDDED;
+	padding-left:5px;
+    padding-right:5px;
+}
+.warning2 {
+	margin: 10px auto 10px auto;
+	border-left: 2px solid #f00;
+	border-right: 2px solid #f00;
+	width: 350px;
+	background: #FFDDED url('/images/important.gif') no-repeat 5px center;
+    padding:3px 3px 3px 45px;
+}
+.oneColFixCtrHdr #mainContent .docs{
+	background: url('/images/h3.gif') no-repeat left bottom;
+	font: small-caps 600 1em arial;
+	color: #666;
+	margin: 5px 0 0 0;
+	padding: 4px 0px 0px 25px;
+	text-decoration: none;
+}
+.oneColFixCtrHdr #mainContent .docsbdc{
+	background: url('/images/h3.gif') no-repeat left bottom;
+	font: small-caps 600 1em arial;
+	color: #F66;
+	margin: 5px 0 0 0;
+	padding: 4px 0px 0px 25px;
+	text-decoration: none;
+}
+.oneColFixCtrHdr #mainContent .MsgBdc{
+	font: 0.6em arial;
+	color: #999;
+	text-decoration: none;
+}
+.listefichiers{
+    list-style-type: none;
+	width: 100%;
+	background: #CCDDFF  ;
+	padding: 2px 0px 2px 5px;
+}
+
+
+#infobulle.pretty {
+	font-family: Arial;
+	border: none;
+	width: 210px;
+	padding:20px;
+	height: 135px;
+	opacity: 0.8;
+	background: url('/images/shadow.png');
+}
+#infobulle.pretty h3 {
+	margin-bottom: 0.75em;
+	font-size: 12pt;
+	width: 220px;
+	text-align: center;
+}
+#infobulle.pretty div { width: 220px; text-align: left; }
+
+
+.intranet_documents_top { display: block; text-align: right; font-weight: normal; color: black; }
+
+A.credits-description { font-weight: normal; text-decoration: none !important; }

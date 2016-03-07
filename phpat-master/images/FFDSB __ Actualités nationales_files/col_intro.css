@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* @override http://ffdsb.devsite/css/col_intro.css */
+* {
+	margin: 0;
+	padding: 0;
+}
+p, ul {
+	margin: 1.2em;
+	padding: 0;
+	list-style-type: square;
+}
+li {
+	margin: 0.7em;
+	padding: 0;
+}
+body, .oneColFixCtrHdr {
+	margin: 0;
+	padding: 0 0 10px 0;
+	background: #8dbdfd url(../images/G-fond-page.jpg) repeat-x;
+	font: 12px Arial, Verdana, "Helvetica Neue", sans-serif;
+}
+img {
+	border: none;
+}
+.oneColFixCtrHdr #container {
+	position: relative;
+	width: 873px !important;
+/* 873px */
+	margin: 10px auto;
+/* les marges automatiques (et dotées d'une largeur positive) centrent la page */
+	/*border: 1px solid red;
+*/
+	text-align: justify;
+/* ce paramétrage annule le paramètre text-align: center de l'élément body. */
+	font: 12px Arial, Verdana, "Helvetica Neue", sans-serif;
+}
+.oneColFixCtrHdr #header {
+	/*background: #DDDDDD;
+*/
+	/*padding: 0 10px 0 20px;
+/* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent en dessous. Si, au lieu de texte, c'est une image qui est insérée dans l'élément #header, il est conseillé de supprimer le remplissage. */
+	/*background: #003986 url("header.jpg") repeat-x bottom;
+	background-position: 0 0px;
+*/
+	height: 156px;
+	border: 0px solid #000;
+}
+.oneColFixCtrHdr #header h1 {
+	margin: 0;
+/* la mise à zéro de la marge du dernier élément du div #header permet d'éviter une disparition de la marge (espace inexplicable entre les éléments div). Si l'élément div est entouré d'une bordure, cette précaution n'est pas nécessaire, car la bordure évite également la disparition de la marge */
+	padding: 10px 0;
+/* l'utilisation de remplissage, au lieu d'une marge, permet d'éloigner l'élément des bords de l'élément div */
+}
+.oneColFixCtrHdr #mainContent {
+	border: 0px solid #000;
+	/*float: right;
+*/
+	/*margin-right: 220px;
+*/
+	/*position: absolute;
+*/
+	float: right;
+	/*margin-left: 192px;
+*/
+	margin-top: 0;
+	width: 681px;
+	padding: 0px;
+/* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+	/*background: #FFF;
+*/
+	/*overflow: auto;
+*/
+}
+.oneColFixCtrHdr #megaMain {
+	background: #f9f8f8 url(../images/fond_main.gif) repeat-y;
+	/* height: 100%; */
+	color: #444;
+}
+.oneColFixCtrHdr #piedmegaMain {
+	clear: both;
+	height: 10px;
+	margin: 0 0 10px 0;
+	background: transparent url(../images/G-piedMegaMain.gif) no-repeat left top;
+}
+.oneColFixCtrHdr #footer {
+	/*  position: absolute; */
+	/*width: 100%;
+	bottom: 0;
+	margin-top: 10px;
+	padding: 10px 0px;
+*/
+/* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent au-dessus. */
+	/*background: transparent;
+*/
+}
+.oneColFixCtrHdr div#footer {
+	clear: both;
+	width: 873px;
+	margin: 10px auto;
+	padding: 0;
+	font: 11px Verdana, Arial, "Helvetica Neue", sans-serif;
+}
+.oneColFixCtrHdr #footer p {
+	color: #fff;
+	margin: 0 0 0 0;
+/* la mise à zéro de la marge du premier élément du pied de page permet d'éviter une possible disparition de la marge (espace entre les éléments div) */
+	padding: 0 0 0 0;
+/* l'utilisation d'un remplissage pour cet élément crée un espace, tout comme une marge l'aurait fait, mais en évitant le risque de disparition de la marge */
+}
+.oneColFixCtrHdr #headmain {
+	/*float: right;
+*/
+	/*margin-right: 220px;
+*/
+	/*position: absolute;
+	margin-left: 192px;
+	margin-top: 10px;
+	width: 681px;
+	padding: 0px;
+/* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+	/*height: 260px;
+*/
+	padding: 0;
+	margin: 0;
+	background: transparent url(../images/G-headmain.gif) repeat-y top;
+	/*overflow: auto;
+*/
+}
+.oneColFixCtrHdr #leftmain {
+	/*float: right;
+*/
+	/*margin-right: 220px;
+*/
+	/*position: absolute;
+	margin-left: 192px;
+	margin-top: 10px;
+	width: 681px;
+	padding: 0px;
+/* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+	float: left;
+	width: 465px;
+	margin: 0;
+	padding: 0 20px 20px 20px;
+	background: #f9f8f8;
+/* original: #f5f5f5 */
+	/*overflow: auto;
+*/
+}
+.oneColFixCtrHdr #rightmain {
+	/*float: right;
+*/
+	/*margin-right: 220px;
+*/
+	/*position: absolute;
+	/*  margin-left: 192px;
+*/
+	margin: 0px;
+	/*  margin: 0px 0 0 0 !important;
+/* interior-padding right */
+	/*  margin: -10px 0 0 0;
+/* interior-padding right */
+	/*margin: 0 0 0 506px !important;
+*/
+	/*  margin: 0 0 0 0px;
+*/
+	/*padding: 5px;
+*/
+	/*position: absolute;
+*/
+	float: right;
+	width: 175px;
+	border: none;
+	/*border-left: 1px solid #999;*/ /* Plus utile, on utilise l'image de fond de #megaMain */
+/* original: #c0c0c0 */
+	background: #f9f8f8;
+/* original: #f5f5f5 */
+	/*overflow: hidden;
+*/
+text-align: left;
+}
+.oneColFixCtrHdr #rightmain a{
+text-decoration: none;
+font-weight:normal;
+}
+.oneColFixCtrHdr #rightmain a:hover{
+text-decoration: underline;
+font-weight:normal;
+}
+.oneColFixCtrHdr #rightmain p {
+	font-size: 11px;
+	margin: 10px 15px 10px 15px;
+}
+.oneColFixCtrHdr #mainContent H1 {
+	/*border: 1px solid #000;
+*/
+	background: url('/images/h1.gif') no-repeat left top;
+/*bottom center top*/
+	/*  font: small-caps 500 1.4em arial;
+*/
+	/*font: 500 1.6em "Arial Narrow", Arial, Helvetica, sans-serif;
+*/
+	font: 500 18px "Arial Narrow", Arial, Helvetica, sans-serif;
+	/*  color: #1B4A8A;
+*/
+	color: #1b4a8a;
+/* original: #666 */
+	line-height: 25px;
+	margin: 20px 0 20px 0;
+	padding: 4px 0px 0px 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.oneColFixCtrHdr #mainContent H2 {
+	/*background: transparent url(../images/h2.gif) no-repeat left 1px;*/
+	background: transparent url(../images/fleche1.gif) no-repeat left 1px;
+	text-indent: 15px;
+	font: normal 12px Arial;
+	text-transform: uppercase;
+	color: #1b4a8a;
+	margin: 40px 0 0 0;
+	text-decoration: none;
+}
+.oneColFixCtrHdr #mainContent H3 {
+	background: url('/images/h3.gif') no-repeat left bottom;
+/*bottom center top*/
+	font: small-caps 600 1em arial;
+	color: #666;
+	margin: 5px 0 0 0;
+	padding: 4px 0px 0px 25px;
+	text-decoration: none;
+}
+.oneColFixCtrHdr #mainContent #rightmain H1 {
+	background: url('/images/h1.gif') no-repeat left top;
+	font: 500 18px "Arial Narrow", Arial, Helvetica, sans-serif;
+	color: #1b4a8a;
+/* original: #1b4a8a */
+	line-height: 25px;
+	margin: 20px 0 20px 5px;
+	padding: 4px 0px 0px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.oneColFixCtrHdr #mainContent #rightmain H2 {
+	/*background: transparent url(../images/h2.gif) no-repeat left 1px;*/
+	background: transparent url(../images/fleche1.gif) no-repeat left 1px;
+	/*bottom center top*/
+	text-indent: 15px;
+	font: normal 12px Arial;
+	text-transform: uppercase;
+	color: #1b4a8a;
+	margin: 5px 0 5px 10px;
+	text-decoration: none;
+}
+.includemenu a {
+	color: #000;
+	font-weight: bold;
+	font-size: 0.7em;
+	text-decoration: underline;
+}
+.includemenu a:hover {
+	color: #f5f5f5
+}
+/*hr.limiteContainer {
+	clear: both;
+	height: 1px;
+	border: 1px solid #f9f8f8;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+.limiteContainer {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	text-align: right;
+}
+*/
+p.limiteContainer {
+	clear: both;
+	height: 1px;
+	margin: 0 0 0 0;
+	padding: 0;
+	background: transparent;
+	text-align: right;
+}
+p.limiteContainer img {
+	margin-right: 175px;
+}
+input, textarea {
+	border: 1px solid #666;
+}

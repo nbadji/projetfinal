@@ -1,0 +1,169 @@
+/* @override http://ffdsb.devsite/css/menu9.css */
+
+/*Boite menu gauche */
+/* set the image to use and establish the lower-right position */
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2 {
+	/*background: transparent url(roundedfond.jpg) no-repeat bottom right;*/
+}
+
+.cssbox {
+	/* intended total box width - padding-right(next) */
+	/*width:335px !important; /* IE Win = width - padding */
+	/*
+	position: absolute;
+	left: 0;
+	*/
+
+	float: left; 
+	width: 184px; 
+	margin: 0; /* 0 ou 8px à droite */
+	background-color: transparent;
+	/*border: 1px solid red;*/
+	/* the gap on the right edge of the image (not content padding) */
+	padding: 0; /* use to position the box */
+}
+
+/* set the top-right image */
+.cssbox_head {
+	background: transparent url(/images/G-box-left-coins-haut-bleu.gif) no-repeat left top;
+	/*background: transparent url(/images/menu_haut_corners.gif) no-repeat left top;*/
+	height: 15px;
+	/* pull the right image over on top of border */
+	margin-right: 0; 
+	/* right-image-gap + right-inside padding */
+	padding-right: 0;
+}
+
+/* set the lower-left corner image */
+.cssbox_body {
+	background: transparent url(/images/G-box-left-corps-bleu.gif) repeat-y center top;
+	/*background:#BB2B00 url(/images/menu_fond.jpg) repeat-x left top;*/
+	/*background-position:bottom left;*/
+	/*background-position:0px 0px;*/
+	/*margin:-9px 0 0 0 !important; /* interior-padding right 0 avant*/ 
+	/*margin:-3px 0 0 0; /* interior-padding right */ 
+	padding: 0;
+	border: 0;
+	/*border-right:1px solid #FFF;
+	border-left:1px solid #FFF;*/
+} /* mirror .cssbox_head right/left */
+
+.cssbox_foot {
+	background: transparent url(/images/G-box-left-coins-bas-bleu.gif) no-repeat left bottom;
+	/*background: transparent url(/images/menu_bas_corners.gif) no-repeat left bottom;*/
+	margin: 0 0 0 0 !important; /* interior-padding right */ 
+	margin: -3px 0 0 0; /* interior-padding right */ 
+	padding: 0; /* mirror .cssbox_head right/left */
+	border: 0px solid #f00;
+	height: 15px;
+}
+
+/* ------- VERSION ROUGE de la colonne gauche (a décommenter pour activer) ---------- */
+/*
+.cssbox_head{
+	background: transparent url(/images/G-box-left-coins-haut-rouge.gif) no-repeat left top;
+}
+
+.cssbox_body{
+	background: transparent url(/images/G-box-left-corps-rouge.gif) repeat-y center top;
+}
+
+.cssbox_foot{
+	background: transparent url(/images/G-box-left-coins-bas-rouge.gif) no-repeat left bottom;
+}
+*/
+/* ------- END VERSION ROUGE ---------- */
+
+/* set the top-left image */
+.cssbox_head h2 {
+	background-position: top left;
+	margin: 0; /* reset main site styles*/ 
+	border: 0; /* ditto */
+	/* padding-left = image gap + interior padding ... no padding-right */
+	padding: 0; 
+	height: auto !important;
+	height: 1%; /* IE Holly Hack */
+} 
+
+.cssbox_body .carto, .cssbox_body .BAclip {
+	text-align: center;  
+	width: 166px;
+	background: #D7D664;
+	margin-left: 6px; /* interior-padding right */ 
+	padding: 0px 0 0px 0px;
+	border: 0px solid #0F0;
+	/*  border-right:0px solid #FFF;
+	border-left:0px solid #FFF;*/
+} /* mirror .cssbox_head right/left */
+
+.cssbox_body .BAclip {
+	margin:	15px auto 0 auto;
+}
+
+.cssbox_body .carto {
+	margin:	0 auto;
+}
+
+.cssbox_body .carto form, #megaMain #rightmain #formNL, .cartoActeur form, form#formCP {
+	width: 130px;
+	/*text-align: center;*/
+	margin: 5px auto 0 auto;
+	padding-bottom: 5px;
+	height: 25px;
+}
+
+.savoirplus {
+	text-align: right;
+}
+
+input.CP, input.prenom, input.nom, input.GSM, input.Ville, input.email {
+/*padding:0;
+*/	float: left; 
+	margin-left: 8px;
+	margin-right: 5px;
+	
+	text-align: center;
+	width: 90px;
+	/*height: 12px; */
+	/*height: auto;*/
+	height: 15px;
+	color: #000;
+	font-weight: bold;
+	font-size: 9px;
+/*	text-decoration: underline;
+*/	text-decoration: none;
+/*	margin: 0 0 0 3px;
+*/}
+
+input.Ville {
+	margin-left:22px;
+}
+
+input.GSM, input.email {
+	width: 131px;
+}
+
+input.SubmitFormCP {
+	float: left; 
+	margin-right: 5px;
+
+	text-indent: -5000px;
+	/*margin: -0px 0px 7px 0px;*/
+	font-size: 0.01em;
+	color: #666;
+	width: 16px;
+	height: 16px;
+	border: none;
+	background: transparent url(/images/btncarto.gif) no-repeat center center;
+	cursor: pointer;
+}
+
+.includemenu {
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+.includemenu H1 {
+	font-size: 1.0em;
+}
+
