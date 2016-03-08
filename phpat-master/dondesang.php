@@ -26,7 +26,19 @@ require_once 'view_parts/_page_base.php';
             <img src="images/globules_rouges.jpg" alt="image d'une goutte de sang">
             <p>Lorsque la maldie(leucémie,aplasie médullaire) ou les traitements lourds(chimiothérapie,radiothérapie empechent la fabrication de cellules sanguines par la moelle osseuse,le malade est dit en aplasie. La transfusion réguliére de plaquettes permet alors d'éviter les risques d'hémoragies mettant en jeu la vie des malades.Les paquettes sont habituellement connues pour leur un rôle essentiel dans la coagulation sanguine. Mais, les plaquettes participent également à l’immunité bien que leur mécanisme d’action ait été jusqu’ici méconnu. </p>
         </div>
+        <div id="div4">
+            <h4>Qu'est ce que le sang?</h4>
+            <p>Le sang est composé de globules rouges, de globules blancs, de plaquettes et de plasma :</p>
+            <p>Les globules rouges ou hématies servent au transport de l’oxygène des poumons vers les différents tissus de l’organisme et permettent ainsi leur oxygénation. En retour, ils transportent le gaz carbonique des tissus vers les poumons pour qu’il soit éliminé par la respiration. C’est plus précisément l‘hémoglobine contenue dans les globules rouges qui se charge des échanges gazeux.</p>
+       <p>Les globules blancs ou leucocytes servent à la défense de l’organisme contre les infections (virus, bactéries…).</p>
+            <p>Les plaquettes servent à la coagulation en permettant, par exemple, la formation d’un caillot qui stoppe le saignement en cas de plaie.</p>
+       <p>Le plasma est le liquide physiologique qui transporte les différentes cellules sanguines, il est composé à 90% d’eau chargée en sel, il contient également d’autres oligo-éléments et protéines.</p>
+       <p>Le volume de la masse sanguine chez un être humain est d’environ 5l (variable en fonction du poids et de la taille des personnes). Le plasma en représente plus de la moitié. </p>
+       <p>Le sang est absolument nécessaire au fonctionnement de l’organisme et pour l’instant, rien ne peut le remplacer. </p>
+        </div>
     </section>
+
+    </div>
 
 </main>
 

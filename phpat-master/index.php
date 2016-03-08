@@ -11,23 +11,23 @@ require_once 'view_parts/_page_base.php';
         <ul>
             <li>
                 <a class="ns-img" href="images/medecin%20ordonnance.jpg" title="photo d'un enfant avec une brosse a dent"></a>
-                <div class="caption"><h1>Centre dentaire de l'est a Montreal</h1>
+                <!--<div class="caption"><h1>Centre dentaire de l'est a Montreal</h1>
                     <p>Centre dentaire offrant des services diversifiés. Des soins préventifs tels que les scellants, ainsi que des traitements comme des plombages blancs, couronnes et ponts de porcelaine.
-                    </p></div>
+                    </p></div>-->
             </li>
 
             <li>
                 <a class="ns-img" href="images/HEMOPHILIE_04180457.jpg" title="photo d'une femme avec un jolie sourire"></a>
-                <div class="caption"><h1>Un sourire comme par magie</h1>
+                <!--<div class="caption"><h1>Un sourire comme par magie</h1>
                     <p>Vous retrouverez  le système de broches invisibles (Invisalign®),  ainsi que d’autres services pouvant soulager plusieurs types de douleur reliée aux problèmes des mâchoires. etc...</p>
-                </div>
+                </div>-->
             </li>
             <li>
                 <a class="ns-img" href="images/HEMOPHILIE_04180457.jpg" title="photo d'adulte avec des dents saints"></a>
-                <div class="caption">
+                <!--<div class="caption">
                     <h1>Notre mission</h1>
                     <p>Nous nous engageons à prodiguer des soins à la hauteur de vos attentes, entourées d’une équipe qui saura rendre votre expérience agréable et ce, tout en douceur..</p>
-                </div>
+                </div>-->
             </li>
 
         </ul>
@@ -35,7 +35,7 @@ require_once 'view_parts/_page_base.php';
 </div>
 
 <main>
-    <img id="imagesensibilisatrice"src="images/Don-de-sang.jpg" alt="une personne entrain de donner de son sang">
+
     <section>
         <div id="section1div">
             <img class="fleche" src="images/images%20(4).jpg" alt="image d'une fleche rouge">
@@ -88,27 +88,6 @@ require_once 'view_parts/_page_base.php';
         <a href="historique_mission.php"><img  src="images/images10.jpg"</a>
 
     </section>
-    <aside>
-    <div id="rg3">
-        <div id="right">
-            <h5 id="faq">FAQ</h5>
-            <a href="#"> <h5 id="faq1">FOIRE AUX QUESTIONS</h5></a>
-            <p id="faq2">Les reponses aux questions les plus frequentes</p>
-            <a href="#">
-                <img id="top" src="images/en_savoir_plus.gif" alt="En savoir plus" border="0" height="25" width="107" /></a>
-
-            <h5 id="faq">ACTUALITES INTERNATIONALES</h5>
-            <img id="top" src="images/actu4.jpg" alt="En savoir plus" border="0" height="100" width="150" />
-            <h5 class="milk"><a href="#">Congrès national de Nantes 2016</a></h5>
-            <h5 class="milk"><a href="http://www.adssb.fr/">Don de sang et secourisme</a></h5>
-            <h5 class="milk"><a href="http://www.toutsurlatransfusion.com/actualite-transfusion-et-don-du-sang/6eme-seminaire-de-la-fiods-en-afrique.php">Soutenir la recherche médicale en transfusion sanguine</a></h5>
-            <h5 class="milk"><a href="http://www.abdsdondesang.com/">Recrutement et fidélisation des donneurs de plasma</a></h5>
-            <h5 class="milk"><a href="#">Contre la rémunération des donneurs</a></h5>
-            <p class="savoirplus"><a href="#"><img src="images/en_savoir_plus.gif" alt="En savoir plus" height="25" width="107" /></a></p>
-        </div>
-    </div>
-
-    </aside>
 
 </main>
 

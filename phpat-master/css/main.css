@@ -25,8 +25,8 @@ form[name="inscription"] .error {
 }
 
 form[name="inscription"] .error_msg {
-    margin-top : 2px;
-    margin-bottom : 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     background-color: #fac040;
 }
 
@@ -35,47 +35,51 @@ form[name="inscription"] .error_msg {
     font-weight: bolder;
 }
 
-body{
+body {
 }
+
 /*--------------------------------------------Style du menu---------------------------------------------*/
-#menu{
+#menu {
     padding: 10px;
     list-style: none;
     text-align: center;
-    border-bottom: 1px solid white ;
-    border-top: 1px solid white ;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
-#menu li{
+#menu li {
     display: inline-block;
     width: 100px;
     padding: 0 10px;
 }
 
-#menu a{
+#menu a {
     color: blue;
     text-decoration: none;
     font-weight: 900;
 }
 
-#menu a:hover{
+#menu a:hover {
     padding: 0 10px;
     color: red;
     background-image: url("../image/hover_line.png");
     background-repeat: no-repeat;
     background-position: 0 90%;
 }
+
 /*.......................................DEBUT CSS PAGE FORMULAIRE................................*/
-form{
+form {
     display: inline-block;
     font-size: 14px;
 }
-.fieldform{
-    width:600px;
-    margin-left:140px;
-    height:auto;
+
+.fieldform {
+    width: 600px;
+    margin-left: 140px;
+    height: auto;
 }
-#main3{
+
+#main3 {
     width: 1000px;
     border-bottom: 90px;
     background-color: white;
@@ -83,161 +87,180 @@ form{
     height: auto;
     border-radius: 16px;
 }
-#gueye{
+
+#gueye {
     font-family: naiv-bold;
     font-size: 18px;
     border-bottom: solid 2px grey;
-    width:475px;
-    margin-left:140px;
+    width: 475px;
+    margin-left: 140px;
     margin-top: 20px;
     padding-top: 20px;
 }
-.gueye1{font-family: Verdana;
+
+.gueye1 {
+    font-family: Verdana;
     font-size: 14px;
     color: red;
-    width:477px;
+    width: 477px;
     margin-left: 140px;
     margin-top: 10px;
 }
-.gueye2{font-family: Verdana;
+
+.gueye2 {
+    font-family: Verdana;
     font-size: 14px;
     color: red;
     background-image: linear-gradient(gainsboro, white);
     border-top-right-radius: 20px;
-    width:540px;
+    width: 540px;
     margin-left: 140px;
     margin-top: 20px;
 
 }
-#habibi{font-family: Verdana;
+
+#habibi {
+    font-family: Verdana;
     font-size: 14px;
     color: red;
     background-image: linear-gradient(gainsboro, white);
     border-top-right-radius: 20px;
-    width:540px;
+    width: 540px;
     margin-left: -45px;
     margin-top: 20px;
 
 }
-.gueye3{font-family: Verdana;
+
+.gueye3 {
+    font-family: Verdana;
     font-size: 14px;
     color: red;
     background-image: linear-gradient(gainsboro, white);
 
 }
+
 /*....................................FIN CSS PAGE FORMULAIRE....................................*/
 
 /*....................................DEBUT CSS PAGE TRANSFUSION AVANT DON...................................................*/
-#main2{
+#main2 {
     width: 1000px;
     border-bottom: 50px;
     background-color: white;
     margin: auto;
     height: 750px;
     border-radius: 16px;
+    margin-top: 10px;
 }
-.ebony h2{
+
+.ebony h2 {
     padding-top: 10px;
     font-size: 16px;
 }
-#labo1{
-    width:475px;
+
+#labo1 {
+    width: 475px;
 }
 
-#no{
-    width:475px;
+#no {
+    width: 475px;
 }
 
-
-
-
-#field2{
+#field2 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     margin-top: -25px;
-    height:1000px;
-    width:1000px;
+    height: 1000px;
+    width: 1000px;
     margin-left: 117px;
     background-image: linear-gradient(gainsboro, white);
 }
-/*#transgueye{
-    margin-left: 478px;
-    margin-top: 400px;
-}*/
-.texto{
-  float:left;
+
+.texto {
+    float: left;
     width: 650px;
     margin-left: 0px;
 }
-.texto #special{
+
+.texto #special {
     margin-left: 20px;
     margin-top: 20px;
     font-family: naiv-bold;
     color: red;
     font-size: 20px;
 }
-.texto p{
+
+.texto p {
     margin-left: 20px;
-    font-size:12px;
+    font-size: 12px;
 }
-#fielddroite{
+
+#fielddroite {
     font-family: sans-serif;
     border-left: solid 1px;
     position: absolute;
     margin-left: 796px;
     margin-top: 225px;
-    width:207px;
+    width: 207px;
     height: 732px;
 }
-#faq{
+
+#faq {
     font-family: naiv-bold;
     font-size: 16px;
     color: royalblue;
-   padding-top: 20px;
+    padding-top: 20px;
     margin-top: -10px;
 }
-#faq1{
+
+#faq1 {
     font-family: sans-serif;
     font-size: 14px;
     color: royalblue;
 }
+
 #faq1:hover {
     color: red;
 }
-#faq2{
+
+#faq2 {
     font-family: sans-serif;
     font-size: 12px;
     color: dimgray;
     margin-left: 1px;
 }
-#right{
-   border-bottom: solid 1px;
+
+#right {
+    border-bottom: solid 1px;
     border-top: 1px solid;
     color: black;
     float: right;
     text-align: justify;
-    margin-top: -700px;
+    margin-top: -490px;
     margin-left: 660px;
-    border-radius:15px;
+    border-radius: 15px;
 
-    padding:30px;
+    padding: 30px;
 
 }
-.milk{
+
+.milk {
     font-family: sans-serif;
     font-size: 14px;
     color: royalblue;
 }
+
 .milk:hover {
     color: red;
 }
-#rg3{
+
+#rg3 {
     float: left;
     width: 300px;
 }
-#rg3 #right{
+
+#rg3 #right {
     border-bottom: solid 1px;
     border-top: 1px solid;
     color: black;
@@ -245,29 +268,30 @@ form{
     text-align: justify;
     margin-top: -1765px;
     margin-left: 0px;
-    border-radius:15px;
+    border-radius: 15px;
 
-    padding:30px;
+    padding: 30px;
 
 }
 
-
 /*................................FIN CSS PAGE TRANSFUSION AVANT DON..............................*/
-#text1tof{
+#text1tof {
     position: absolute;
     margin-top: -147px;
     font-size: 20px;
     width: 216px;
     color: blue;
 }
-#text2tof{
+
+#text2tof {
     position: absolute;
     margin-top: -145px;
     font-size: 20px;
     color: white;
     margin-left: 309px;
 }
-.text2tof{
+
+.text2tof {
     position: absolute;
     margin-top: -110px;
     font-size: 12px;
@@ -275,14 +299,16 @@ form{
     margin-left: 309px;
     width: 85px;
 }
-#text3tof{
+
+#text3tof {
     position: absolute;
     margin-top: -145px;
     font-size: 20px;
     color: blue;
     margin-left: 612px;
 }
-.text3tof{
+
+.text3tof {
     position: absolute;
     margin-top: -110px;
     font-size: 12px;
@@ -290,44 +316,44 @@ form{
     margin-left: 615px;
     width: 85px;
 }
+
 /*-----------------------------------------------------------asaka------------------------------------------------------------------------------------------*/
-#bckg-index{
+#bckg-index {
     background: url("../Image/background-index.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
-
-
 }
+
 #Accueil-slider {
-    width:100%;
+    width: 100%;
 
     padding: 30px 0;
 
-    margin:0 auto;
-    overflow:hidden;
-    box-sizing:border-box;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 #Accueil-slider.fullscreen {
-    background:black;
+    background: black;
 }
 
 #Accueil-slider .fs-icon {
-    top:10px;
-    right:6px;
-    width:60px;
-    height:26px;
-    background: rgba(0,0,0,0.3);
-    z-index:2;
-    color:white;
-    text-align:center;
-    font:bold 11px/26px arial;
-    border:1px solid rgba(255,255,255,0.3);
-    border-radius:2px;
-    opacity:0;
-    -webkit-transition:opacity 0.8s;
-    transition:opacity 0.8s;
+    top: 10px;
+    right: 6px;
+    width: 60px;
+    height: 26px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font: bold 11px/26px arial;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s;
+    transition: opacity 0.8s;
 }
 
 #Accueil-slider .slider-inner:hover .fs-icon,
@@ -336,110 +362,111 @@ form{
 }
 
 #Accueil-slider .fs-icon::before {
-    content:"EXPAND";
-    display:block;
+    content: "EXPAND";
+    display: block;
 }
 
 #Accueil-slider.fullscreen .fs-icon::before {
-    content:"CLOSE";
+    content: "CLOSE";
 }
 
 #Accueil-slider .slider-inner {
-    max-width:800px;
-    margin:0 auto;/*center-aligned */
-    font-size:0;
-    position:relative;
-    box-sizing:border-box;
+    max-width: 800px;
+    margin: 0 auto; /*center-aligned */
+    font-size: 0;
+    position: relative;
+    box-sizing: border-box;
 }
 
 #Accueil-slider.fullscreen .slider-inner {
-    width:100%;
-    max-width:948px;
+    width: 100%;
+    max-width: 948px;
 }
 
 #Accueil-slider ul {
     /*overflow:hidden;*/
-    position:relative;
-    list-style:none;
-    padding:0;
-    box-sizing:border-box;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #Accueil-slider li {
 
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     position: absolute;
-    font-size:12px;
-    list-style:none;
-    margin:0;
-    padding:0;
-    opacity:0;
-    overflow:hidden;
-    box-sizing:border-box;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 #Accueil-slider li.ns-show {
-    opacity:1;
+    opacity: 1;
 }
-
 
 /* --------- slider image ------- */
 #Accueil-slider .ns-img {
-    background-color:rgba(0,0,0,0.3);
-    background-size:contain;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: contain;
 
     /*decorate border*/
-    box-shadow: 0 1px 5px rgba(0,0,0,.8),inset 0 0 2px rgba(255,255,255,.4);
-    border-radius:4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .8), inset 0 0 2px rgba(255, 255, 255, .4);
+    border-radius: 4px;
 
-    cursor:default;
-    display:block;
+    cursor: default;
+    display: block;
     position: absolute;
-    width:100%;
-    height:100%;
-    background-repeat:no-repeat;
-    background-position:center center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-
 
 /*---------- Captions(texte) -------------------*/
 #Accueil-slider .caption {
-    padding:20px 40px;
-    margin:auto;
-    left:0;right:0;
-    top:auto;bottom:8%;
-    width:50%;
-    text-align:center;
-    font-family:sans-serif;
-    font-size:2.2em;
-    color:#fff;
-    background:rgba(0,0,0,0.6);
-    border:1px solid rgba(255,255,255,0.4);
-    border-radius:4px;
-    position:absolute;
-    box-sizing:border-box;
-    opacity:0;
-    -webkit-transition:opacity 1s ease-in;
-    transition:opacity 1s ease-in;
-}
-#Accueil-slider li[class*='-s'] .caption {
-    opacity:1;
+    padding: 20px 40px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 8%;
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.2em;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
 }
 
+#Accueil-slider li[class*='-s'] .caption {
+    opacity: 1;
+}
 
 /* ---------s'il y a des videos  dans le slider------- */
-#Accueil-slider .video, .video-playbutton-layer
-{
-    top:0; left:0; border:0;
-    width: 100%;height: 100%;
+#Accueil-slider .video, .video-playbutton-layer {
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
     text-align: center;
     background: black;
     position: absolute;
 }
-
 
 /* notre boutton play*/
 .video-playbutton-layer {
@@ -447,62 +474,65 @@ form{
 }
 
 /* Pour les Iframe youtube ou vimeo */
-#Accueil-slider div.stopVideoIcon
-{
-    position:absolute;
-    width:30px;height:30px;
-    top:0;right:0px;
-    margin:0 0 6px 6px;
-    background:rgba(0,0,0,0.7);
-    border-bottom-left-radius:4px;
-    cursor:pointer;
-}
-#Accueil-slider div.stopVideoIcon::before {
-    content:"+";
-    color:white;
-    font:bold 30px/30px arial;
-    -webkit-transform:rotate(45deg);
-    transform: rotate(45deg);
-    display:block;
+#Accueil-slider div.stopVideoIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0px;
+    margin: 0 0 6px 6px;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
 }
 
+#Accueil-slider div.stopVideoIcon::before {
+    content: "+";
+    color: white;
+    font: bold 30px/30px arial;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+}
 
 /* ---------fleche buttons ------- */
-#Accueil-slider-pause-play { display:none;}
+#Accueil-slider-pause-play {
+    display: none;
+}
 
-#Accueil-slider-prev, #Accueil-slider-next
-{
+#Accueil-slider-prev, #Accueil-slider-next {
     position: absolute;
-    display:inline-block;
-    width:60px;
-    height:100px;
-    line-height:100px;
+    display: inline-block;
+    width: 60px;
+    height: 100px;
+    line-height: 100px;
     top: 50%;
-    margin:0;
-    margin-top:-65px;
+    margin: 0;
+    margin-top: -65px;
 
-    background-color:#ccc\9;
-    backface-visibility:hidden;
-    color:white;
-    overflow:hidden;
-    white-space:nowrap;
+    background-color: #ccc \9;
+    backface-visibility: hidden;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
     -webkit-user-select: none;
-    user-select:none;
-    border-radius:3px;
-    z-index:10;
-    opacity:0.2;
-    cursor:pointer;
-    font-family:sans-serif;
-    font-size:11px;
+    user-select: none;
+    border-radius: 3px;
+    z-index: 10;
+    opacity: 0.2;
     cursor: pointer;
-    -webkit-transition:all 0.7s;
-    transition:all 0.7s;
-    -webkit-transform:scale(1,1.3);
-    transform:scale(1,1.3);
+    font-family: sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+    -webkit-transform: scale(1, 1.3);
+    transform: scale(1, 1.3);
     /*border:1px solid white;*/
 }
+
 #Accueil-slider-prev:hover, #Accueil-slider-next:hover {
-    opacity:1;
+    opacity: 1;
 
 }
 
@@ -515,9 +545,22 @@ form{
 }
 
 /*pagination des  prev/next buttons*/
-#Accueil-slider-prev div {opacity:0;margin-left:30px;transition:opacity 0.7s;}
-#Accueil-slider-next div {opacity:0;float:right;margin-right:30px;transition:opacity 0.7s;}
-#Accueil-slider-prev:hover div, #Accueil-slider-next:hover div{opacity:1;}
+#Accueil-slider-prev div {
+    opacity: 0;
+    margin-left: 30px;
+    transition: opacity 0.7s;
+}
+
+#Accueil-slider-next div {
+    opacity: 0;
+    float: right;
+    margin-right: 30px;
+    transition: opacity 0.7s;
+}
+
+#Accueil-slider-prev:hover div, #Accueil-slider-next:hover div {
+    opacity: 1;
+}
 
 /* fleches */
 #Accueil-slider-prev::before, #Accueil-slider-next::before {
@@ -530,71 +573,63 @@ form{
     border-left: 3px solid #ccc;
     border-top: 3px solid #ccc;
 }
+
 /*---------------compabilite IE9 des bouttons et transitions-----------------*/
 #Accueil-slider-prev::before {
-    -ms-transform:rotate(-45deg);
-    -webkit-transform:rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    backface-visibility:hidden;
-    right:-16px;
+    backface-visibility: hidden;
+    right: -16px;
 }
 
 #Accueil-slider-next::before {
-    -ms-transform:rotate(135deg);
-    -webkit-transform:rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-    backface-visibility:hidden;
-    left:-16px;
+    backface-visibility: hidden;
+    left: -16px;
 }
-
-
 
 /*------ pager(js css) ------*/
 
-#Accueil-slider-pager
-{
-    padding-top:30px;
-    margin:0 auto;
-    text-align:center;
-    display:table;
-    font-size:0;
+#Accueil-slider-pager {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    font-size: 0;
 }
 
-#Accueil-slider-pager a
-{
-    display:inline-block;
+#Accueil-slider-pager a {
+    display: inline-block;
     width: 10px;
     height: 10px;
     background-color: #888;
-    font-size:0;
-    margin:2px 6px;
-    cursor:pointer;
-    border-radius:10px;
-    box-shadow:inset 0 1px 3px #666666;
+    font-size: 0;
+    margin: 2px 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px #666666;
 }
 
-#Accueil-slider-pager a:hover
-{
-    opacity:0.6;
-}
-#Accueil-slider-pager a.active
-{
-    background-color:#ccc;
-    box-shadow:0 1px 1px rgba(0,0,0,.5);
+#Accueil-slider-pager a:hover {
+    opacity: 0.6;
 }
 
+#Accueil-slider-pager a.active {
+    background-color: #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
 
-
-#Accueil-slider-pager, #Accueil-slider-prev, #Accueil-slider-next, #Accueil-slider-pause-play
-{
+#Accueil-slider-pager, #Accueil-slider-prev, #Accueil-slider-next, #Accueil-slider-pause-play {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;
 }
 
-
 /*------ Responsive settings du slider  -----------------------------*/
-@media only screen and (max-width:960px){
+@media only screen and (max-width: 960px) {
 
     #Accueil-slider-prev {
         left: -12px;
@@ -605,20 +640,19 @@ form{
     }
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width: 640px) {
 
     #Accueil-slider-prev, #Accueil-slider-next, #Accueil-slider-pager {
-        display:none;
+        display: none;
     }
 }
 
-
 /*..................................DEBUT CSS PAGE CELLULES.......................................*/
 #team {
-   width: 1000px;
-display: block;
+    width: 1000px;
+    display: block;
     margin-left: 250px;
-    margin:auto;
+    margin: auto;
     border-bottom: solid 1px dimgrey;
     background-image: linear-gradient(white, gainsboro);
     border-top-left-radius: 15px;
@@ -627,23 +661,26 @@ display: block;
     border-bottom-right-radius: 15px;
     border-left: solid 1px dimgrey;
 }
+
 #quote1 {
     width: 300px;
-display: inline-block;
-background-color: white;
+    display: inline-block;
+    background-color: white;
     margin-left: 5px;
     margin-top: -60px;
 }
+
 #quote2 {
-width: 301px;
-display: inline-block;
+    width: 301px;
+    display: inline-block;
     vertical-align: 10px;
     margin-left: 54px;
     background-color: darkgrey;
 
 }
+
 #quote3 {
-width: 259px;
+    width: 259px;
     display: inline-block;
     vertical-align: 10px;
     margin-left: 33px;
@@ -651,12 +688,12 @@ width: 259px;
 }
 
 #quoteprime {
-  margin-top: -80px;
+    margin-top: -80px;
     font-size: 20px;
     margin-left: 2px;
 
-
 }
+
 #quotesecond {
 
     font-size: 20px;
@@ -664,54 +701,64 @@ width: 259px;
     margin-left: 2px;
 
 }
+
 #quotethird {
     margin-top: 40px;
     font-size: 20px;
     margin-left: 2px;
 }
+
 #pi {
-color: white;
+    color: white;
     background-color: red;
-    top:10px;
+    top: 10px;
     position: absolute;
     width: 200px;
     border-bottom-right-radius: 15px;
 }
+
 #pi:hover {
     color: red;
     background-color: gainsboro;
-    top:10px;
+    top: 10px;
     position: absolute;
     width: 200px;
     border-bottom-right-radius: 15px;
 
 }
+
 #pi2 {
     width: 300px;
- font-size: 14px;
+    font-size: 14px;
 }
+
 #pi3 {
-    width: 300px;
+    width: 245px;
     font-size: 14px;
 }
+
 #pi4 {
-    width: 300px;
+    width: 245px;
     font-size: 14px;
 }
+
 .pi2 {
-     margin-bottom: -4px;
-     font-size: 14px;
-     color: red;
- }
+    margin-bottom: -4px;
+    font-size: 14px;
+    color: red;
+}
+
 .pi2:hover {
     color: steelblue;
 }
+
 .pi3 {
     margin-bottom: -3px;
     font-size: 14px;
     color: red;
 
 }
+
 .pi3:hover {
     color: steelblue;
 }
@@ -721,32 +768,35 @@ color: white;
     font-size: 14px;
     color: red;
 }
+
 .pi4:hover {
     color: steelblue;
 }
+
 /*------------------------------------CSS FORMULAIRE ETAPE 2-----------------------------*/
-li {list-style: none;
+li {
+    list-style: none;
 
 }
-.form2{
+
+.form2 {
 
     margin-left: 190px;
-    height:auto;
+    height: auto;
     font-size: 14px;
 
 }
-#ins{
+
+#ins {
     color: red;
 
-   font-size: 14px;
+    font-size: 14px;
 }
-#ins:hover{
+
+#ins:hover {
     color: blue;
 
 }
-
-
-
 
 /*************************----CSS BADJI-------------------------------------------------*/
 
@@ -765,26 +815,30 @@ li {list-style: none;
     font-weight: normal;
     font-style: normal;
 }
+
 /*------------------------------------------------------DEBUT CSS DE LA PAGE D'A CCUEIL-----------------------------*/
-body{
+body {
     background-color: blue;
-    background-image:linear-gradient(blue,white,blue,white);
+    background-image: linear-gradient(blue, white, blue, white);
 }
-header{
+
+header {
     width: 1000px;
     margin: 0 auto;
-    background-color:white;
+    background-color: white;
     border-radius: 23px;
     /* z-index: 200;*/
     box-shadow: yellow;
 
 }
 
-#logo img{width: 280px;
+#logo img {
+    width: 280px;
     height: 120px;
     background-color: blue;
 }
-#name-center{
+
+#name-center {
     margin-left: 290px;
     margin-top: -100px;
     font-family: naiv-bold;
@@ -792,19 +846,17 @@ header{
 
 }
 
-h2{
+#logo h2 {
     margin-left: 220px;
-    margin-top: -20px;
+    margin-top: -10px;
     font-family: naiv-bold;
 }
-/*header img {
-height: 60px;
-    z-index: 100*/
-/*}*/
-header li{
+
+header li {
     list-style: none;
 }
-#logo img:nth-of-type(2){
+
+#logo img:nth-of-type(2) {
     float: right;
     width: 100px;
     height: 80px;
@@ -812,45 +864,54 @@ header li{
 
 }
 
-#imagesensibilisatrice{
+#imagesensibilisatrice {
     width: 700px;
     margin-left: 300px;
     height: 250px;
-    margin-top:10px;
+    margin-top: 10px;
     border-top-left-radius: 23px;
     border-top-right-radius: 23px;
 
     z-index: 600;
 }
-main{
+
+main {
     width: 1000px;
-    background-color: white;
+
     margin: 0 auto;
     border-radius: 16px;
 }
-section{
-    margin-left: 300px;
-    background-color: white;
-    margin-top:auto;
 
+#main4 {
 
 }
-#section2{
+
+section {
+
+    background-color: white;
+    margin-top: auto;
+
+}
+
+#section2 {
     width: 1000px;
     margin-left: 0px;
+    border-radius: 16px;
+    margin-top: 10px;
 }
 
-#section1div img{
+#section1div img {
     margin-left: 0px;
     margin-top: 20px;
 
 }
-.fleche{
+
+.fleche {
     width: 50px;
     height: 50px;
 }
 
-h3{
+h3 {
     color: red;
     font-family: naiv-bold;
     margin-top: -40px;
@@ -858,13 +919,15 @@ h3{
     font-size: 25px;
 
 }
-p{
+
+p {
     margin-left: 20px;
-    font-family:naiv-bold;
+    font-family: naiv-bold;
     font-size: 16px;
 
 }
-footer{
+
+footer {
     clear: both;
     margin: 0 auto;
 
@@ -872,97 +935,211 @@ footer{
     text-align: center;
     margin-top: 60px;
 
-
 }
-footer p{
+
+footer p {
     font-family: serif;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
     font-family: naiv-thin;
     color: aliceblue;
     font-size: 13px;
 
 }
+
 /*------------------------- FIN CSS DE LA PAGE D'ACCUEIL----------------*/
 /* ---------------------------historique-mission.html ----------*/
-#section1div strong{color: red;
+#section1div strong {
+    color: red;
     font-family: naiv-bold;
     margin-top: -100px;
     margin-left: 20px;
     font-size: 25px;
 }
-#mission ul li{
+
+label h2 {
+    margin-left: 0px;
+    color: red;
+}
+
+#mission ul li {
     margin-left: 20px;
-    font-family:naiv-bold;
+    font-family: naiv-bold;
     font-size: 16px;
+}
+
+#accordion {
+    width: 1000px;
+    font-family: naiv-bold;
+    font-size: 16px;
+    margin-top: -25px;
+
+}
+
+#container div:nth-of-type(-n+10) {
+    border-bottom: 1px solid gray;
+}
+
+article ul {
+    height: auto;
+    margin-left: 15px;
+}
+
+article li {
+}
+
+#container {
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+}
+
+#accordion input {
+    display: none;
+}
+
+#accordion label {
+    cursor: pointer;
+    display: block;
+}
+
+#accordion input:checked + label {
+    color: white;
+    margin-bottom: 0;
+}
+
+#accordion article {
+    background: white;
+    height: 0px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#accordion article li {
+    padding: 0em;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#accordion input:checked article {
+}
+
+#accordion input:checked ~ article {
+    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: .25em;
+    height: auto;
+    margin-bottom: .125em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label h2 {
+    margin-left: 0px;
+    font-size: 25px;
+    color: cadetblue;
+    font-family: naiv-bold;
+    padding-top: 20px;
+}
+
+#cond {
+    color: red;
+    font-family: naiv-bold;
+    margin-top: -30px;
+    margin-left: 70px;
+    font-size: 25px;
 }
 
 /*-----------------------slider-----------------------*/
 /* ---------------------------css de dondesang.html----------*/
-#don img{
+#don img {
     float: left;
     width: 200px;
     height: 160px;
     margin-right: 20px;
 }
+
 #sectiondds {
-    margin-left: 300px;
+    /* margin-left: 300px;*/
     background-color: white;
-    margin-top:90px;
-    height: 1000px;
+    border-top: 100px;
+    height: 900px;
+    margin: 0 auto;
+    border-radius: 16px;
 
 }
 
-#sectiondds h2{
+#sectiondds h2 {
     color: red;
     font-family: naiv-bold;
-    margin-top: -40px;
-    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 0px;
     font-size: 28px;
 
-
 }
 
-#don p{
+#don p {
     padding-left: 0px;
 }
-#div2 h4{
+
+#div2 h4 {
     font-size: 28px;
     background-color: blue;
     width: 680px;
-    padding-left:20px;
+    padding-left: 20px;
 }
-#sang{
+
+#div3 h4 {
+    font-size: 28px;
+    background-color: blue;
+    width: 680px;
+    padding-left: 20px;
+}
+
+#div4 h4 {
+    font-size: 28px;
+    background-color: blue;
+    width: 680px;
+    padding-left: 20px;
+}
+
+#sang {
     width: 120px;
     height: 90px;
 
 }
-#plus{
+
+#plus {
     float: right;
     width: 40px;
     height: 40px;
     margin-right: 20px;
     margin-top: -30px;
 }
-/*#div2 img{
-    width: 120px;
-    height: 100px;
-    margin-top: -20px;
 
-}*/
-#div2 p{
+#div2 p {
 
     float: right;
     margin-top: -90px;
     margin-left: 140px;
 
 }
-#div3 img{
+
+#div3 img {
     width: 120px;
     height: 100px;
     margin-top: -20px;
 
 }
-#div3 p{
+
+#div3 {
+    margin: 30px;
+}
+
+#div3 p {
 
     float: right;
     margin-top: -100px;
@@ -972,7 +1149,7 @@ footer p{
 
 
 
-/*-------------------------------------------SLIDER---------------------------*/
+
 
 
 

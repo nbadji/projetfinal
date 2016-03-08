@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="projetfinal">
+    <serverData>
+      <paths name="projetfinal">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/cnts_projetisi_com/" local="$PROJECT_DIR$/phpat-master/" web="" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/phpat-master/images" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

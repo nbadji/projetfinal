@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c33af037-d2cd-4fcd-9d34-664985b2414f" name="projetfinal" url="http://panel.projetisi.com">
+        <fileTransfer host="panel.projetisi.com" port="21" password="dfdadf9ddf9bdfc2df9bdf9cdfc8dfcbdfcedfc0dfc3dfcddfdfdfcfdfd3dfcf" username="p71h16badjigueye">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

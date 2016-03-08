@@ -8,3 +8,10 @@ define('HOME_PAGE', 'index.php');
 define('LIKE_ID', 'like_id'); // Le parametre de querystring pour ajouter un "like"
 define('SESS_LIKES', 'sess_likes'); // Le parametre de querystring pour ajouter un "like"
 define('INSCRIPTION_PAGE', 'inscription.php');
+
+
+/**
+ * Mettre le error reporting au maximum pour les tests
+ */
+error_reporting(E_ALL);
+ini_set('display_errors', 1);

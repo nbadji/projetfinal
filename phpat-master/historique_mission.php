@@ -5,13 +5,21 @@ $site_data[PAGE_ID] = 'historique_mission';
 require_once 'common/_start.php';
 require_once 'view_parts/_page_base.php';
 ?>
+<head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+</head>
 <script>/* <![CDATA[ */
-    /*
-     |
-     |
-     | Affiche et cache le contenu de blocs multiples.
-     |
-     */
+    jQuery(document).ready(function() {
+        $(".more").hide();
+        jQuery('.button-read-more').click(function () {
+            $(this).closest('.less').addClass('active');
+            $(this).closest(".less").prev().stop(true).slideDown("1000");
+        });
+        jQuery('.button-read-less').click(function () {
+            $(this).closest('.less').removeClass('active');
+            $(this).closest(".less").prev().stop(true).slideUp("1000");
+        });
+    });
 
 </script>
 <main>
@@ -52,6 +60,119 @@ require_once 'view_parts/_page_base.php';
             </div>
 
     </section>
+    <div id="container">
+
+
+
+
+
+        <section id="accordion">
+            <img class="fleche" src="images/images%20(9).jpg" alt="image d'une fleche rouge">
+            <p id="cond">Conditions à respecter pour un don de sang </p>
+
+            <div>
+                <input type="checkbox" id="check-1" />
+                <label for="check-1">
+                    <h2>Être âgé de 18 à 60 ans</h2></label>
+                <article>
+                    <ul>
+                       <li> Après 60 ans, le don est soumis à l'approbation d'un médecin de collecte de l'EFS. Pour un don de plasma ou de plaquettes, il faut être âgé de 18 à 65 ans.</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-2" />
+                <label for="check-2"><h2>Ne pas être à jeun</h2></label>
+                <article>
+                    <ul>
+                        <li>Le don du sang est plutôt conseillé après une collation.  </li>
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-3" />
+                <label for="check-3"><h2>Être en forme</h2></label>
+                <article>
+                    <ul>
+                        <li>Il est préférable de faire un don du sang quand on est en forme. </li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-4" />
+                <label for="check-4"><h2>Peser au minimum 50 kilos</h2></label>
+                <article>
+                    <ul>
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-5" />
+                <label for="check-5"><h2>Ne pas être enceinte</h2></label>
+                <article>
+                    <ul>
+                        <li>Ne pas avoir accouché au cours des 6 derniers mois.  </li>
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-6" />
+                <label for="check-6"><h2>Antibiotiques et infections</h2></label>
+                <article>
+                    <ul>
+                        <li>Il est également important de nee pas avoir pris d'antibiotique au cours des 2 dernières semaines, ni d'avoir eu d'infection au cours des 6 derniers jours (angine, bronchite, fièvre, rhino... ). </li>
+
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-7" />
+                <label for="check-7"><h2>Absence d'intervention chirurgicale</h2></label>
+                <article>
+                    <ul>
+                        <li>Ne pas avoir subi une intervention chirurgicale au cours des 4 derniers mois. </li>
+
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-8" />
+                <label for="check-8"><h2>Relations sexuelles</h2></label>
+                <article>
+                    <ul>
+                        <li>Ne jamais avoir eu de relations sexuelles homosexuelles. Ne pas avoir eut de rapports sexuels avec un nouveau partenaire au cours des 4 mois précédant le don. </li>
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-9" />
+                <label for="check-9"><h2>Délai de 8 semaines entre 2 dons de sang</h2></label>
+                <article>
+                    <ul>
+                        <li>Un délai de 8 semaines minimum est nécessaire entre 2 dons de sang total. </li>
+
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input type="checkbox" id="check-10" />
+                <label for="check-10"><h2>Prise de médicaments</h2></label>
+                <article>
+                    <ul>
+                        <li>l est conseillé de respecter un délai de quatorze jours après la fin d'un traitement médicamenteux (antibiotiques, corticoïdes en comprimés...). </li>
+
+
+
+                    </ul>
+                </article>
+            </div>
+
 
 </main>
 <?php
